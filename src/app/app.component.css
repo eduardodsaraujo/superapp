@@ -1,0 +1,11 @@
+ul li a{
+    color:white;
+    font-weight: bold;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #f4f1f0;
+    color: #3379b7 !important;
+    transition: all 0.5s;
+}

@@ -1,0 +1,14 @@
+<div>
+  <nav class="navbar navbar-dark navbar-expand bg-primary" >
+    <div class="container">
+      <ul class=" nav navbar-dark navbar-nav navbar-expand">
+          <li><a [routerLink]="['welcome']">Home</a></li>
+          <li><a [routerLink]="['heroes']">Hero List</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <router-outlet></router-outlet>
+  </div>
+</div>
